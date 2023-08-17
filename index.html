@@ -1,11 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Crash Course</title>
-</head>
-<body>
-    
-</body>
+<html>
+    <head>
+        <title>HTML Cheat Sheet</title>
+    </head>
+    <body>
+        <a href="blog.html">Go to blog</a>
+        <hr>
+        <!--Headings-->
+        <h1>Heading One</h1>
+        <h2>Heading Two</h2>
+        <h3>Heading Three</h3>
+        <h4>Heading Four</h4>
+        <h5>Heading Five</h5>
+        <h6>Heading Six</h6>
+
+        <!--Paragraph-->
+        <p>
+            Lorem ipsum <strong>I like food</strong> sit amet consectetur <a href="http://google.com" target="_blank"> I am tired</a> elit. Voluptates, placeat eligendi. Voluptas quidem numquam porro dolorem totam? Dignissimos suscipit culpa in autem iste, nulla deserunt molestias ut quae id? Reiciendis.
+        </p>
+        <p>
+            Lorem ipsum <em>I am hungry </em>dolor sit amet consectetur adipisicing elit. Voluptates, placeat eligendi. Voluptas quidem numquam porro dolorem totam? Dignissimos suscipit culpa in autem iste, nulla deserunt molestias ut quae id? Reiciendis.
+        </p>
+
+        <!--Lists-->
+        <ul>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+        </ul>
+        <ol>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+        </ol>
+
+        <!--Table-->
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Madison Reynolds</td>
+                    <td>madison@something.com</td>
+                    <td>35</td>
+                </tr>
+                <tr>
+                    <td>Leena Reynolds</td>
+                    <td>leena@something.com</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>Jarom Reynolds</td>
+                    <td>jarom@something.com</td>
+                    <td>25</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+        <hr>
+        <br>
+
+        <!--Forms-->
+        <form action="process.php" method="post">
+            <div>
+                <label>First Name</label>
+                <input type="text" name="firstName"
+                placeholder="Enter first name">
+            </div>
+            <br>
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="lastName">
+            </div>
+            <br>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email">
+            </div>
+            <br>
+            <div>
+                <label>Message</label>
+                <textarea name="Message"></textarea>
+            </div>
+            <br>
+                <div>
+                    <label>Gender</label>
+                    <select name="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+            </div>
+            <br>
+            <div>
+                <label>Age</label>
+                <input type="number" name="Age"
+                value="30">
+            </div>
+            <br>
+            <div>
+                <label>Birthday</label>
+                <input type="date" name="Birthday">
+            </div>
+            <br>
+            <input type="submit" name="submit" value="Submit">
+        </form>
+
+        <!--Button-->
+        <button>Click Me</button>
+
+        <br>
+
+        <!--Image-->
+        <a href="images/sample.jpg">
+            <img src="images/sample.jpg" alt="My Sample Image" width="200">
+        </a>
+
+        <!--Quotations-->
+        <blockquote cite="http://traversymedia.com">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nihil molestias provident modi, neque nisi, maxime officiis, doloremque est placeat quam. Sunt vel ea libero nemo ad suscipit ex nostrum?
+        </blockquote>
+
+        <p>The <abbr title="World Wide Web">WWW</abbr> is awesome</p>
+        
+        <p><cite>HTML crash course </cite>by Madison Reynolds</p>
+
+        <div style="margin-top:500px"></div>
+    </body>
 </html>
